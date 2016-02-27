@@ -1,0 +1,90 @@
+html {
+  background: url(../images/crowdimg.png) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+body {
+  /*background: #f6f6ed;*/
+  text-align: center;
+  margin: 0;
+  padding: 0;
+  font-family: 'Poiret One', cursive;
+  font-weight: normal;
+}
+h1 {
+  color: rgb(101, 101, 101);
+  font-family: 'Poiret One', cursive;
+  font-weight: lighter;
+}
+hr {
+  width: 100%;
+  height: 0.2px;
+  color: #1a1a1a;
+}
+header {
+  display: flex;
+  justify-content: space-between;
+  padding: 5px;
+}
+header nav {
+  display: flex;
+  flex: 1;
+  justify-content: flex-start;
+  align-items: center;
+  margin: 3% 3% 2% 3%;
+}
+header nav a {
+  flex: 0 10%;
+  /*don't grow and set width to 18% to leave space*/
+  margin-right: 5px;
+  font-family: 'Poiret One', cursive;
+  font-weight: normal;
+}
+a {
+  color: white;
+}
+a:hover {
+  color: rgb(219, 197, 0);
+}
+.bodytext h1 {
+  display: flex;
+  justify-content: center;
+}
+.quotebox {
+  display: flex;
+  height: 150px;
+  background-color: rgba(0, 0, 0, 0.75);
+}
+.quotebox div {
+  display: flex;
+  align-items: center;
+  margin: 0 auto;
+}
+.quotebox div blockquote {
+  text-transform: capitalize;
+  font-size: 1.5em;
+  color: rgb(255, 255, 255);
+}
+.emptybox {
+  height: 300px;
+}
+.aboutbox {
+  height: 450px;
+  background-color: black;
+}
+.aboutbox div {
+  width: 60%;
+  margin: 0 auto;
+  padding-top: 4%;
+  text-align: left;
+}
+.aboutbox div h1 {
+  color: rgb(221, 119, 0);
+
+}
+.aboutbox div p {
+  color: white;
+
+}

@@ -1,5 +1,6 @@
+window.onload=function(){
 var vid = document.getElementById("bgvid");
-var pauseButton = document.querySelector("#polina button");
+var pauseButton = document.querySelector("#artistbox button");
 
 function vidFade() {
   vid.classList.add("stopfade");
@@ -7,11 +8,11 @@ function vidFade() {
 
 vid.addEventListener('ended', function()
 {
-// only functional if "loop" is removed
+// only functional if "loop" is removed 
 vid.pause();
 // to capture IE10
 vidFade();
-});
+}); 
 
 
 pauseButton.addEventListener("click", function() {
@@ -24,3 +25,4 @@ pauseButton.addEventListener("click", function() {
     pauseButton.innerHTML = "Paused";
   }
 })
+}

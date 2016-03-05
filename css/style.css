@@ -83,11 +83,18 @@ a:hover {
   font-size: 18px;
 }
 
-@media only screen and (max-width: 768px) {
-  .letter-h, .letter-i, .letter-j, .letter-k, .letter-l, .letter-m, .letter-n, .letter-o, .letter-p, .letter-q, .letter-r, .letter-s, .letter-t, .letter-u, .letter-v, .letter-w, .letter-x, .letter-y, .letter-z  {
+@media screen and (max-width: 768px) {
+  body {
+    background-position: center right;
+  }
+  header nav {
+    flex-direction: column;
+    margin-top: 10%;
+  }
+  .bodytext {
     display: none;
   }
-  .letter-container {
-    margin: 0 auto;
+  .letter-box {
+    display: none;
   }
 }

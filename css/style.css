@@ -1,6 +1,4 @@
 body {
-  /*background: #f6f6ed;*/
-  /*background: #000000;*/
   background: url('../images/homebg.png') no-repeat center center fixed;
   background-size: cover;
   font-family: arial, sans-serif;
@@ -18,7 +16,6 @@ body header {
   display: flex;
   justify-content: space-between;
   padding: 5px;
-  /*background-color: black;*/
 }
 header nav {
   display: flex;

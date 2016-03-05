@@ -66,6 +66,8 @@ a:hover {
 }
 .circlebox a {
   margin: 2% 8% 0 3%;
+  font-style: normal;
+  text-decoration: none;
 }
 .rowone {
   display: flex;
@@ -74,25 +76,44 @@ a:hover {
   width: 20em;
   height: 20em;
   margin: 3% 6% 0 4%;
-  /*transition-property: width, height, border-radius;
-  transition-duration: .2s, 1s;
-  transition-timing-function: linear;*/
-  /*animation-fill-mode: forwards;
-  animation:  bounceIn 1s ease-in-out 2s 3 forwards;*/
   transition: all .2s ease-in-out;
 }
-
 .colone {
   background: url('../images/samwillowband.jpg') no-repeat bottom right;
+  background-size: contain;
+}
+.coltwo {
+  background: url('../images/stevemcqueen.jpg') no-repeat bottom center;
+  background-size: cover;
+}
+.colthree {
+  background: url('../images/cashewchemists.jpg') no-repeat center center;
+  background-size: cover;
+}
+.colfour {
+  background: url('../images/gentlebonesimg.jpg') no-repeat bottom center;
+  background-size: cover;
+}
+.colfive {
+  background: url('../images/melissathamimg.jpg') no-repeat bottom center;
+  background-size: cover;
+}
+.colsix {
+  background: url('../images/riotinmagenta.jpg') no-repeat bottom center;
+  background-size: cover;
+}
+.colone h3, .coltwo h3, .colthree h3, .colfour h3, .colfive h3, .colsix h3 {
+  margin: 0 auto;
+  color: rgba(238, 221, 212, 0);
+  transition: all .2s ease-in-out;
+}
+.colone h3:hover, .coltwo h3:hover, .colthree h3:hover, .colfour h3:hover, .colfive h3:hover, .colsix h3:hover {
+  color: white;
+  margin-top: -8%;
+  transform: scale(1.1);
 }
 .rowone:hover {
   transform: scale(1.1);
-  /*-ms-transform: scale(2,2); /* IE 9 */
-    /*-webkit-transform: scale(2,2); /* Safari */*/
-    /*transform: scale(2,2);*/*/
-  /*border-radius: 10%;
-  width: 30em;
-  height: 30em;*/
 }
 
 @media screen and (max-device-width: 500px) {

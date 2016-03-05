@@ -60,33 +60,51 @@ a:hover {
   display: flex;
   height: 70em;
   margin: 2% 0 4% 0;
+  padding: 0 8% 3% 8%;
   justify-content: space-between;
   flex-wrap: wrap;
+}
+.circlebox a {
+  margin: 2% 8% 0 3%;
 }
 .rowone {
   display: flex;
   background-color: black;
-  border-radius: 50%;
+  border-radius: 10%;
   width: 20em;
   height: 20em;
-  margin: 3% 8% 0;
-  transition-property: width, height, border-radius;
+  margin: 3% 6% 0 4%;
+  /*transition-property: width, height, border-radius;
   transition-duration: .2s, 1s;
-  transition-timing-function: linear;
+  transition-timing-function: linear;*/
+  /*animation-fill-mode: forwards;
+  animation:  bounceIn 1s ease-in-out 2s 3 forwards;*/
+  transition: all .2s ease-in-out;
 }
 
 .colone {
-  background: url('../images/samwillowband.jpg') no-repeat center center;
+  background: url('../images/samwillowband.jpg') no-repeat bottom right;
 }
 .rowone:hover {
-  border-radius: 10%;
+  transform: scale(1.1);
+  /*-ms-transform: scale(2,2); /* IE 9 */
+    /*-webkit-transform: scale(2,2); /* Safari */*/
+    /*transform: scale(2,2);*/*/
+  /*border-radius: 10%;
   width: 30em;
-  height: 20em;
-  /*margin: autp;*/
-  /*animation-fill-mode: forwards;
-  animation:  bounceIn 1s ease-in-out 2s 3 forwards;*/
+  height: 30em;*/
 }
 
-@media screen and (max-device-width: 800px) {
-
+@media screen and (max-device-width: 500px) {
+  .circlebox {
+    display: flex;
+    margin: 4% auto;
+    padding: 0 6% 3% 6%;
+  }
+  .rowone {
+    margin: 3% 6% 0 4%;
+  }
+  .header nav {
+    margin-left: 4%.
+  }
 }

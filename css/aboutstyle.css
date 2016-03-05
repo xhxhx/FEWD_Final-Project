@@ -37,6 +37,7 @@ header nav a {
   margin-right: 5px;
   font-family: 'Poiret One', cursive;
   font-weight: normal;
+  font-size: 1.5em;
 }
 a {
   color: white;
@@ -60,7 +61,7 @@ a:hover {
 }
 .quotebox div blockquote {
   text-transform: capitalize;
-  font-size: 1.5em;
+  font-size: 2.8em;
   color: rgb(255, 255, 255);
 }
 .emptybox {
@@ -78,9 +79,11 @@ a:hover {
 }
 .aboutbox div h1 {
   color: rgb(221, 119, 0);
+  font-size: 2em;
 }
 .aboutbox div p {
   color: white;
+  font-size: 1.5em;
 }
 
 @media screen and (max-width: 500px) {
